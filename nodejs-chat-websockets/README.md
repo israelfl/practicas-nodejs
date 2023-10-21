@@ -1,3 +1,7 @@
+Video Tutorial
+
+[Chat en TIEMPO REAL con Node.js, Socket.io, SQL, HTML y CSS](https://www.youtube.com/watch?v=WpbBhTx5R9Q)
+
 HTTP vs Web Sockets
 ➡️ https://ably.com/topic/websockets-vs-http
 
