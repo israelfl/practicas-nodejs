@@ -1,0 +1,34 @@
+@baseUrl = http://localhost:3000/api
+
+###
+GET {{baseUrl}}/tasks
+
+###
+GET {{baseUrl}}/tasks?size=3&page=0&title=vue
+
+###
+GET {{baseUrl}}/tasks/done
+
+###
+GET {{baseUrl}}/tasks/61a0fe2d36efca7aef7c5bd5
+
+###
+POST {{baseUrl}}/tasks
+Content-Type: application/json
+
+{
+    "title": "Hacer un sitio web Vue",
+    "description": "Trabajo freelance",
+    "done": true
+}
+
+###
+PUT {{baseUrl}}/tasks/61a0fe2d36efca7aef7c5bd5
+Content-Type: application/json
+
+{
+    "done": false
+}
+
+###
+DELETE {{baseUrl}}/tasks/61a102cdd6be06b137382e77
