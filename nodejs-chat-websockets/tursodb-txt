@@ -1,0 +1,11 @@
+Start an interactive SQL shell with:
+
+   turso db shell helped-firestar
+
+To see information about the database, including a connection URL, run:
+
+   turso db show helped-firestar
+
+To get an authentication token for the database, run:
+
+   turso db tokens create helped-firestar
