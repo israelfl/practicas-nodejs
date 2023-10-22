@@ -6,7 +6,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israelfl/practicas-nodejs/tree/main.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "israelfl"
+  ],
+  "author": "Israel Falcón Leal",
+  "license": "ISC",
+  "dependencies": {
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
 }
