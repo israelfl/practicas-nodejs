@@ -8,7 +8,12 @@ Ejercicios, prácticas y tutoriales sobre nodejs.
 - [Socket.IO](https://socket.io/) Comunicación bidireccional para todas las plataformas. [Enlace NPM](https://www.npmjs.com/package/socket.io).
 - [picocolors](https://www.npmjs.com/package/picocolors) Textos en colores para la terminal.
 - [fl0](https://www.fl0.com/) Despliega aplicaciones backend y bases de datos en minutos.
-
+- [planetscale](https://planetscale.com/): Plataforma avanzada de MYSQL gratuita (requiere tarjeta credito pero no cargan nada)
+  - 5 Gb almacenamiento.
+  - 1 Billón de lecturas al mes.
+  - 10 Millón de escrituras al mes.
+  - 1 rama de producción.
+  - 1 rama de desarrollo
 ## REST Client
 [Extensión para Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
