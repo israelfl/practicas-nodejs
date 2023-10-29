@@ -1,0 +1,24 @@
+@vsCodeExtension = https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+@baseurl = http://localhost:3000
+@diaryId = 1
+
+### Ping
+GET {{baseurl}}/ping
+
+### Get Diaries
+GET {{baseurl}}/api/diaries
+
+### Get Diary
+GET {{baseurl}}/api/diaries/{{diaryId}}
+
+
+### POST Diary
+POST {{baseurl}}/api/diaries
+Content-Type: application/json
+
+{
+ "date": "2023-10-29",
+ "weather": "sunny",
+ "visibility": "great",
+ "comment": "Perfect day."
+}
